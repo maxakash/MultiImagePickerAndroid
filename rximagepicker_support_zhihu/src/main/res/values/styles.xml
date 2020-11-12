@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="Zhihu_Normal" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="toolbar">@style/Toolbar.Zhihu</item>
+        <item name="album.dropdown.title.color">@color/zhihu_album_dropdown_title_text</item>
+        <item name="album.dropdown.count.color">@color/zhihu_album_dropdown_count_text</item>
+        <item name="album.element.color">@android:color/white</item>
+        <item name="album.thumbnail.placeholder">@color/zhihu_album_dropdown_thumbnail_placeholder</item>
+        <item name="album.emptyView">@drawable/ic_empty_zhihu</item>
+        <item name="album.emptyView.textColor">@color/zhihu_album_empty_view</item>
+        <item name="item.placeholder">#ffffff</item>
+        <item name="item.checkCircle.backgroundColor">#3700B3</item>
+        <item name="item.checkCircle.borderColor">@color/zhihu_item_checkCircle_borderColor</item>
+        <item name="page.bg">#eaeaea</item>
+        <item name="bottomToolbar.bg">@color/zhihu_bottom_toolbar_bg</item>
+        <item name="bottomToolbar.preview.textColor">@color/zhihu_bottom_toolbar_preview</item>
+        <item name="bottomToolbar.apply.textColor">@color/zhihu_bottom_toolbar_apply</item>
+        <item name="preview.bottomToolbar.back.textColor">@color/zhihu_preview_bottom_toolbar_back_text</item>
+        <item name="preview.bottomToolbar.apply.textColor">@color/zhihu_preview_bottom_toolbar_apply</item>
+        <item name="listPopupWindowStyle">@style/Popup.Zhihu</item>
+        <item name="capture.textColor">@color/zhihu_capture</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:navigationBarColor">#ffffff</item>
+        <item name="android:fontFamily">@font/robo</item>
+
+    </style>
+
+    <style name="Toolbar.Zhihu" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+    </style>
+
+    <style name="Popup.Zhihu" parent="Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/zhihu_album_popup_bg</item>
+    </style>
+
+    //===================================== Theme Dracula ==========================================
+
+    <style name="Zhihu_Dracula" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="toolbar">@style/Toolbar.Dracula</item>
+        <item name="album.dropdown.title.color">@color/dracula_album_dropdown_title_text</item>
+        <item name="album.dropdown.count.color">#eaeaea</item>
+        <item name="album.element.color">@android:color/white</item>
+        <item name="album.thumbnail.placeholder">#eaeaea</item>
+        <item name="album.emptyView">@drawable/ic_empty_dracula</item>
+        <item name="album.emptyView.textColor">@color/dracula_album_empty_view</item>
+        <item name="item.placeholder">@color/dracula_bottom_toolbar_bg</item>
+        <item name="item.checkCircle.backgroundColor">#3700B3</item>
+        <item name="item.checkCircle.borderColor">#6200EE</item>
+        <item name="page.bg">#323232</item>
+        <item name="bottomToolbar.bg">@color/dracula_bottom_toolbar_bg</item>
+        <item name="bottomToolbar.preview.textColor">@color/dracula_bottom_toolbar_preview</item>
+        <item name="bottomToolbar.apply.textColor">@color/dracula_bottom_toolbar_apply</item>
+        <item name="preview.bottomToolbar.back.textColor">@color/dracula_preview_bottom_toolbar_back_text</item>
+        <item name="preview.bottomToolbar.apply.textColor">@color/dracula_preview_bottom_toolbar_apply</item>
+        <item name="listPopupWindowStyle">@style/Popup.Dracula</item>
+        <item name="capture.textColor">@color/dracula_capture</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:navigationBarColor">#ffffff</item>
+        <item name="android:fontFamily">@font/robo</item>
+    </style>
+
+    <style name="Toolbar.Dracula" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+    </style>
+
+    <style name="Popup.Dracula" parent="Widget.AppCompat.ListPopupWindow">
+        <item name="android:popupBackground">#eaeaea</item>
+    </style>
+
+    <style name="icononly" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="rippleColor">#808080</item>
+        <item name="android:minHeight">48dp</item>
+
+    </style>
+
+
+</resources>

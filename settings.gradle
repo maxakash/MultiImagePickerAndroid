@@ -1,0 +1,1 @@
+include ':sample', ':rximagepicker', ':rximagepicker_support', ':rximagepicker_support_zhihu', ':rximagepicker_support_wechat'

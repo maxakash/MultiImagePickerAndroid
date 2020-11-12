@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akash.iml" filepath="$PROJECT_DIR$/.idea/modules/akash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rximagepicker/akash.rximagepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/rximagepicker/akash.rximagepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rximagepicker_support/akash.rximagepicker_support.iml" filepath="$PROJECT_DIR$/.idea/modules/rximagepicker_support/akash.rximagepicker_support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rximagepicker_support_wechat/akash.rximagepicker_support_wechat.iml" filepath="$PROJECT_DIR$/.idea/modules/rximagepicker_support_wechat/akash.rximagepicker_support_wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rximagepicker_support_zhihu/akash.rximagepicker_support_zhihu.iml" filepath="$PROJECT_DIR$/.idea/modules/rximagepicker_support_zhihu/akash.rximagepicker_support_zhihu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/akash.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/akash.sample.iml" />
+    </modules>
+  </component>
+</project>

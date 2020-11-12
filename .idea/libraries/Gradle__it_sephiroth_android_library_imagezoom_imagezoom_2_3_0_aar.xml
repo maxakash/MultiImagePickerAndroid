@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: it.sephiroth.android.library.imagezoom:imagezoom:2.3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5e3143e35a68a6a708b083cd3345bca/jetified-imagezoom-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21af14374d6c693a97f66eb851292097/jetified-imagezoom-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2bec2614ef178fac351d5177345ac822/jetified-imagezoom-2.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2bec2614ef178fac351d5177345ac822/jetified-imagezoom-2.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2bec2614ef178fac351d5177345ac822/jetified-imagezoom-2.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

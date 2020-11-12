@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:theme="@style/Zhihu_Normal">
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_back"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground"
+            android:elevation="0dp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            app:icon="@drawable/ic_arrow_back_"
+            app:iconPadding="0dp"
+            app:iconTint="#808080"
+             />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/selected_album"
+            android:elevation="0dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:text="All Media"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            app:iconPadding="0dp"
+            app:cornerRadius="20dp"
+            app:strokeColor="#808080"
+            app:icon="@drawable/ic_arrow_drop_down_white_24dp"
+            app:iconGravity="textEnd"
+            android:textColor="#808080"
+            app:iconTint="#808080"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_apply"
+            android:elevation="0dp"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground"
+            android:text="@string/done"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            app:icon="@drawable/select"
+            app:iconGravity="textEnd"
+            android:textColor="#808080"
+            app:iconTint="#808080"
+             />
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/toolbar"
+        android:visibility="gone" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/toolbar"
+        android:background="#D3D3D3" />
+
+    <FrameLayout
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/toolbar"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+
+        <TextView
+            android:id="@+id/empty_view_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="@string/empty_text"
+            android:textColor="?attr/album.emptyView.textColor"
+            android:textSize="16sp"
+            app:drawableTopCompat="?attr/album.emptyView"
+            tools:drawableTop="@drawable/ic_empty_zhihu"
+            tools:layout_height="50dp"
+            tools:text="@string/empty_text"
+            tools:textColor="@color/dracula_album_empty_view" />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#D3D3D3" />
+</RelativeLayout>

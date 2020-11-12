@@ -1,0 +1,37 @@
+apply from: "config.gradle"
+
+buildscript {
+    ext.kotlin_version = '1.4.10'
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://maven.google.com' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // plugin for jcenter
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+
+    tasks.withType(Javadoc) {
+        options.addStringOption('Xdoclint:none', '-quiet')
+        options.addStringOption('encoding', 'UTF-8')
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
